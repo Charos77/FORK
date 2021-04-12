@@ -53,3 +53,30 @@ header {
 }
 
 /* header end */
+
+/* section charos start */
+.charos{
+  min-height: 100vh;
+  background: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.charos__card{
+  display: flex;
+  flex-direction: column;
+}
+.charos__title{
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.charos__txt{
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+/* section charos end */
